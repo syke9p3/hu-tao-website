@@ -8,12 +8,14 @@ import ImageCard from '../components/ImageCard';
 
 const Home = () => {
     return (
-        <div className="font-primary bg-[#040404] overflow-hidden">
+        <div className="font-primary bg-[#040404] relative">
             <Navbar />
-            <Hero />
-            <About />
-            <Services />
-            <Footer />
+            <div className='relative z-0'>
+                <Hero />
+                <About />
+                <Services />
+                <Footer />
+            </div>
         </div>
     )
 }
@@ -21,7 +23,7 @@ const Home = () => {
 
 const Hero = () => {
     return (
-        <div className="w-full bg-[#040404] text-white min-h-[600px] ">
+        <div className="w-full bg-[#040404] text-white min-h-[800px]">
             <Container>
                 <div className='py-16 block justify-between md:grid grid-cols-12 bg-gradient-to-b from-transparent to-[#00000050]'>
                     <div className='flex flex-col col-start-2 col-end-6 gap-6 pt-12 sm:col-start-1 md:ps-16'>
@@ -149,13 +151,12 @@ const Services = () => {
     return (
         <div id="services" className="w-full bg-[#040404] text-white min-h-[900px] ">
             <Container>
-                <div className='py-36 block justify-between lg:grid grid-cols-12 bg-gradient-to-b from-transparent to-[#00000050]'>
+                <div className='py-12 block justify-between lg:grid grid-cols-12 bg-gradient-to-b from-transparent to-[#00000050]'>
                     <div className='flex flex-col col-start-1 col-end-6 gap-6 pt-12 md:ps-16'>
                         <h1 className='text-6xl uppercase md:text-7xl font-heading'>Services</h1>
                         <p className='max-w-sm leading-relaxed text-white/80'>
                             Wangsheng Funeral Parlor isn't your regular <i>rest in peace</i> establishment. We bring you experiences that are worthy <i>to die for!</i>
                         </p>
-
                     </div>
                     <div className='grid col-span-6 col-end-12 gap-4 justify-center items-center p-10 mt-4 break-inside-avoid lg:mt-0 md:grid-cols-2 bg-blues-300'>
 

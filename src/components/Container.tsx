@@ -1,7 +1,9 @@
-const Container = (props) => {
+import React from "react"
+
+const Container = ({children}: {children: React.ReactNode }) => {
   return (
     <div className='container px-12 mx-auto max-w-7xl xl:px-6'>
-        {props.children}
+        {children}
     </div>
   )
 }

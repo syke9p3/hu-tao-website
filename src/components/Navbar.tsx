@@ -3,9 +3,9 @@ import Container from "./Container"
 
 const Navbar = () => {
     return (
-        <nav className="w-full py-6 z-50 shadow-sm text-white bg-[#040404]">
+        <nav className="w-full py-6 z-50 shadow-sm text-white bg-[#040404] sticky top-0">
             <Container>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center ">
 
                     {/* <div id="nav-logo" className="relative text-4xl">K<span className="absolute top-2 left-5 text-teal-400">S</span></div> */}
                     <Link to={'/'} id="nav-logo" className="relative text-3xl uppercase font-heading">Wangsheng <span className="text-red-500">Funeral</span></Link>
