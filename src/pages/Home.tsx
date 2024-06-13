@@ -1,7 +1,6 @@
 import Navbar from '../components/Navbar';
 import Container from '../components/Container';
 import huTaoHat from '/huTaoHat.png'
-import b from '/b.png'
 import CharCard from '../components/CharCard';
 import Footer from '../components/Footer';
 import ImageCard from '../components/ImageCard';
