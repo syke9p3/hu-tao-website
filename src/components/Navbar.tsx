@@ -59,7 +59,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <ul className={`md:hidden absolute top-20 z-[100] flex flex-col gap-3 bg-[#040404] p-4 transition-all duration-75 ease-in-out ${isOpened ? 'right-0' : '-right-[20rem]'}`}>
+          <ul className={`md:hidden absolute top-20 z-[100] flex flex-col gap-3 bg-[#040404] p-4 transition-all duration-300 ease-in-out ${isOpened ? 'right-0' : '-right-[20rem]'}`}>
             {
               links.map((link, index) => (
                 <a href={link.link} key={index} className="text-right px-4 py-2 rounded-full transition-all duration-150 ease-in-out hover:text-red-500">
