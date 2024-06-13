@@ -1,6 +1,6 @@
 # Wangsheng Funeral Parlor Fanmade Website
 
-Welcome to the Wangsheng Funeral Parlor Fanmade Website! This is a website made for fun as a tribute to Wangsheng Funeral Parlor from Genshin Impact. I built this project mainly to develop my skills in building websites in React with TailwindCSS, as well as 
+Welcome to the Wangsheng Funeral Parlor Fanmade Website! This is a website made for fun as a tribute to Wangsheng Funeral Parlor from Genshin Impact. I built this project mainly to develop my skills in building websites in React with TailwindCSS, as well as version control with GitHub and Vercel deployment.  
 
 ## Built with
 
