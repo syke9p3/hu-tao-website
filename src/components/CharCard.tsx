@@ -1,5 +1,6 @@
 import React from "react";
 import huTaoConst from "/huTaoConst.webp";
+import zhongliConst from "/zhongli-constellation.jpg";
 import { twMerge } from "tailwind-merge";
 
 interface CharCardProps {
@@ -24,7 +25,7 @@ const CharCard = ({ name, children, className, role, img }: CharCardProps) => {
   } else if (name === "ZHONGLI") {
     constellation = (
       <img
-        src="https://ih1.redbubble.net/image.4960847705.3129/raf,750x1000,075,t,101010:01c5ca27c6.jpg"
+        src={zhongliConst}
         alt=""
         className="pointer-events-none absolute w-96 object-cover mix-blend-screen opacity-20 saturate-0 contrast-200 blur-[2px] top-0"
       />

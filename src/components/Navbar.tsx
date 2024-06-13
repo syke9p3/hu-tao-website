@@ -55,7 +55,7 @@ const Navbar = () => {
               ))
             }
             <li className="px-6 py-2 font-semibold text-white uppercase bg-red-500 rounded-full transition-all duration-150 ease-in-out hover:bg-red-600">
-              <Link to="/#contact">Book Now</Link>
+              <a href="/#contacts">Book Now</a>
             </li>
           </ul>
 
@@ -67,9 +67,9 @@ const Navbar = () => {
                 </a>
               ))
             }
-            <Link to="/#contact" className="px-6 py-2 font-semibold text-white uppercase bg-red-500 rounded-full transition-all duration-150 ease-in-out hover:bg-red-600">
+            <a href="/#contacts" className="px-6 py-2 font-semibold text-white uppercase bg-red-500 rounded-full transition-all duration-150 ease-in-out hover:bg-red-600">
               Book Now
-            </Link>
+            </a>
           </ul>
 
 

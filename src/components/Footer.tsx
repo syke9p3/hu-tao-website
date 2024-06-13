@@ -95,15 +95,18 @@ const Footer = () => {
           <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700" />
 
           <div className="flex flex-col justify-between md:flex-row md:items-center">
-            <a href="#">
-              <div id="nav-logo" className="relative text-3xl font-heading">
-                WANGSHENG <span className="text-red-500">FUNERAL</span>
-              </div>
+            <a href="#" id="nav-logo" className="relative text-3xl font-heading">
+              WANGSHENG <span className="text-red-500">FUNERAL</span>
             </a>
 
-            <p className="text-[#FFFFFF77] text-sm">
-              © Wangsheng Funeral Parlor - All rights preserved!{" "}
-            </p>
+            <div className="text-right">
+              <p className="text-[#FFFFFF77] text-sm">
+                © Wangsheng Funeral Parlor - All rights preserved!{" "}
+              </p>
+              <p className="text-[#FFFFFF77] text-sm font-bold">
+                Website made by syke9p3
+              </p>
+            </div>
           </div>
         </div>
       </Container>
