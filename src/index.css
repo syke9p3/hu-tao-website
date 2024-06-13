@@ -18,7 +18,7 @@ html {
 
 /* For Firefox */
 * {
-  scrollbar-color: #EF4444 #040404;
+  scrollbar-color: #ef4444 #040404;
 }
 
 /* For Chrome, Edge, and Safari */
@@ -31,7 +31,7 @@ html {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #EF4444;
+  background-color: #ef4444;
   border-radius: 20px;
   border: 3px solid #040404;
 }

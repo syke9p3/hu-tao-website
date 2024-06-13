@@ -1,6 +1,6 @@
 # Wangsheng Funeral Parlor Fanmade Website
 
-Welcome to the Wangsheng Funeral Parlor Fanmade Website! This is a website made for fun as a tribute to Wangsheng Funeral Parlor from Genshin Impact. I built this project mainly to develop my skills in building websites in React with TailwindCSS, as well as version control with GitHub and Vercel deployment.  
+Welcome to the Wangsheng Funeral Parlor Fanmade Website! This is a website made for fun as a tribute to Wangsheng Funeral Parlor from Genshin Impact. I built this project mainly to develop my skills in building websites in React with TailwindCSS, as well as version control with GitHub and Vercel deployment.
 
 <img src='./public/screenshot1.png'>
 
@@ -9,8 +9,6 @@ Welcome to the Wangsheng Funeral Parlor Fanmade Website! This is a website made 
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-
-
 ## Getting Started
 
 To get a local copy up and running, follow these steps:
@@ -18,7 +16,6 @@ To get a local copy up and running, follow these steps:
 1. Clone the repository
 2. Install dependencies with `npm install`
 3. Start local development server with `npm run dev`
-
 
 ## Contributing
 

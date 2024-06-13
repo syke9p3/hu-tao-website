@@ -95,7 +95,11 @@ const Footer = () => {
           <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700" />
 
           <div className="flex flex-col justify-between md:flex-row md:items-center">
-            <a href="#" id="nav-logo" className="relative text-3xl font-heading">
+            <a
+              href="#"
+              id="nav-logo"
+              className="relative text-3xl font-heading"
+            >
               WANGSHENG <span className="text-red-500">FUNERAL</span>
             </a>
 
