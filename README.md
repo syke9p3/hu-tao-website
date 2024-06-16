@@ -30,4 +30,4 @@ Contributions are welcome for this project. If you have ideas, suggestions for n
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/syke9p3/hu-tao-website/blob/main/LICENSE) for more information.
