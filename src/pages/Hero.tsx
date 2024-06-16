@@ -20,7 +20,7 @@ export const Hero = () => {
                 <a href="#">special lethal offers!</a>
               </span>
             </p>
-            <div className="relative mt-8">
+            <a href="#contacts" className="relative mt-8">
               <button className="relative px-16 py-4 w-full font-semibold text-white bg-red-500 rounded-full transition-all duration-300 ease-in-out md:w-auto hover:bg-red-600 group">
                 <p>BOOK NOW</p>
                 <img
@@ -29,7 +29,7 @@ export const Hero = () => {
                   className="rotate-0 absolute h-20 top-[-2.25rem] left-[-2.5rem] transform translate-y-0 translate-x-0 transition-all duration-300 ease-in-out group-hover:translate-y-[-2.5rem] group-hover:translate-x-[-2.5rem] group-hover:rotate-[-30deg]"
                 />
               </button>
-            </div>
+            </a>
           </div>
           <div className="relative col-span-6 col-end-12 justify-center items-center md:p-10 min-h-[500px] md:mt-12 bg-blues-300">
             <img
